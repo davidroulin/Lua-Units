@@ -5,8 +5,6 @@ A simple and elegant unit conversion module for Lua
 Usage
 -----
 
-`convert-units` has a simple chained API that is easy to read.
-
 Here's how you convert from meters to feet:
 
 ```lua
