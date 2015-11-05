@@ -42,6 +42,11 @@ For now the module can convert between:
 
 (more to come) 
 
+Credit
+------
+
+A special thanks to [`ben-ng`](https://github.com/ben-ng) who did a great job with [`convert-units`](http://ben-ng.github.io/convert-units/), the Javascript equivalent lib who inspired the syntax of Lua-Units.
+
 License
 -------
 
