@@ -10,7 +10,8 @@ Here's how you convert from meters to feet:
 ```lua
 
 local units = require( "units" )
-print( units.convert( 1 ).from( "m" ).to( "ft" ) )
+local x = units.convert( 1 ).from( "m" ).to( "ft" )
+print(x)
 // 3.2808
 ```
 
@@ -21,7 +22,8 @@ By default precision is set to 4 digits. Here is how to change it:
 
 local units = require( "units" )
 units.precision = 3
-print( units.convert( 1 ).from( "m" ).to( "ft" ) )
+local x = units.convert( 1 ).from( "m" ).to( "ft" )
+print(x)
 // 3.281
 ```
 
